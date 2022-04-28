@@ -1,12 +1,18 @@
-.header {
-
+body {
+    background-color: #FFEFD5;
+    padding: 50px;
 }
 
-.body {
-
+h3 {
+  background-color: #CD5C5C; 
+  margin: 20px;
+  font-family: Tahoma, sans-serif;
 }
 
-.title {
-
+section {
+    padding: 15px;
 }
 
+.midtext {
+    font-family: Tahoma, sans-serif; 
+}
