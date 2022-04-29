@@ -1,18 +1,16 @@
-body {
-    background-color: #FFEFD5;
-    padding: 50px;
-}
-
-h3 {
-  background-color: #CD5C5C; 
+h2 {
+  color: #CD5C5C; 
   margin: 20px;
   font-family: Tahoma, sans-serif;
+  text-align: center;
 }
 
 section {
     padding: 15px;
+    margin: 30px;
 }
 
-.midtext {
-    font-family: Tahoma, sans-serif; 
+body {
+    background-color: #FFEFD5;
+    padding: 50px;
 }
