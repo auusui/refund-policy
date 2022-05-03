@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h2 {
   color: #CD5C5C; 
   margin: 20px;
@@ -5,9 +9,10 @@ h2 {
   text-align: center;
 }
 
-section {
-    padding: 15px;
-    margin: 30px;
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body {
@@ -18,9 +23,40 @@ body {
 
 
 header {
-  background-color: #666;
+  background-color: #CD5C5C;
   padding: 30px;
   text-align: center;
   font-size: 35px;
   color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #FAEBD7;
+  padding: 20px;
+}
+
+.midtext {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  border-top-color: #778899;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
